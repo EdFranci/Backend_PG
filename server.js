@@ -19,7 +19,8 @@ const db = mysql.createConnection({
   host: 'autorack.proxy.rlwy.net',
   user: 'root',     
   password: 'VmbBLfjjVXQipsYSHIozlOlPCdSCKaeH', 
-  database: 'railway'
+  database: 'railway',
+  port: 3306
 });
 
 
