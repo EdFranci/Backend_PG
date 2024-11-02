@@ -16,10 +16,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: 'mysql.railway.internal',
   user: 'root',     
-  password: '', 
-  database: 'pg'
+  password: 'VmbBLfjjVXQipsYSHIozlOlPCdSCKaeH', 
+  database: 'railway'
 });
 
 
@@ -663,8 +663,8 @@ app.get('/generar-reporte/:tipo', (req, res) => {
   });
 });
 
-app.listen(5000, () => {
-  console.log('Servidor corriendo en el puerto 5000');
+app.listen(3306, () => {
+  console.log('Servidor corriendo en el puerto 3306');
 });
 
   
