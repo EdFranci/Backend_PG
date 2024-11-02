@@ -19,7 +19,7 @@ const db = mysql.createConnection({
   host: 'sql309.infinityfree.com',
   user: 'if0_37637506',     
   password: 's4urj9Wv9e', 
-  database: 'if0_37637506_XXX',
+  database: 'if0_37637506_PG_B',
   port: 3306
 });
 
