@@ -16,10 +16,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: 'autorack.proxy.rlwy.net',
-  user: 'root',     
-  password: 'VmbBLfjjVXQipsYSHIozlOlPCdSCKaeH', 
-  database: 'railway',
+  host: 'sql309.infinityfree.com',
+  user: 'if0_37637506',     
+  password: 's4urj9Wv9e', 
+  database: 'if0_37637506_XXX',
   port: 3306
 });
 
