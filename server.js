@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: '${{RAILWAY_PRIVATE_DOMAIN}}',
+  host: 'autorack.proxy.rlwy.net',
   user: 'root',     
   password: 'VmbBLfjjVXQipsYSHIozlOlPCdSCKaeH', 
   database: 'railway'
